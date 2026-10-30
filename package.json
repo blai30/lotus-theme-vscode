@@ -1,6 +1,6 @@
 {
-  "name": "lotus-theme",
-  "displayName": "Lotus Theme",
+  "name": "lotus-theme-vscode",
+  "displayName": "Lotus Theme for VS Code",
   "description": "Dark color theme using colors from Tailwind CSS documentation.",
   "publisher": "blai30",
   "icon": "icon.png",
