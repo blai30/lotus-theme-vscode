@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Galewind\Samples;
+namespace Lotus\Samples;
 
 use DateTimeImmutable;
 use InvalidArgumentException;

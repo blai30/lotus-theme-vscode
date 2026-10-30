@@ -1,4 +1,4 @@
-# Galewind Theme Sample
+# Lotus Theme Sample
 
 A Markdown file that exercises the theme's **bold**, _italic_, and **_bold-italic_** rules.
 

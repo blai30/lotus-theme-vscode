@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 
-namespace galewind {
+namespace lotus {
 
 inline constexpr double kEpsilon = 1e-9;
 
@@ -36,11 +36,11 @@ struct Point {
     double magnitude() const { return std::hypot(x, y); }
 };
 
-}  // namespace galewind
+}  // namespace lotus
 
 int main() {
-    using galewind::Point;
-    using galewind::Stack;
+    using lotus::Point;
+    using lotus::Stack;
 
     Stack<Point> stack;
     stack.push(Point{3.0, 4.0});

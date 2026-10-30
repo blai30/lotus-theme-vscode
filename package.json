@@ -1,12 +1,12 @@
 {
-  "name": "galewind-theme",
-  "displayName": "Galewind Theme",
+  "name": "lotus-theme",
+  "displayName": "Lotus Theme",
   "description": "Dark color theme using colors from Tailwind CSS documentation.",
   "publisher": "blai30",
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/blai30/galewind-theme"
+    "url": "https://github.com/blai30/lotus-theme-vscode"
   },
   "version": "1.2.2",
   "engines": {
@@ -18,24 +18,24 @@
   "contributes": {
     "themes": [
       {
-        "label": "Galewind Dark Rose",
+        "label": "Lotus Dark Rose",
         "uiTheme": "vs-dark",
-        "path": "./themes/Galewind Dark Rose-color-theme.json"
+        "path": "./themes/lotus-dark-rose-color-theme.json"
       },
       {
-        "label": "Galewind Dark Sky",
+        "label": "Lotus Dark Sky",
         "uiTheme": "vs-dark",
-        "path": "./themes/Galewind Dark Sky-color-theme.json"
+        "path": "./themes/lotus-dark-sky-color-theme.json"
       },
       {
-        "label": "Galewind Black Rose",
+        "label": "Lotus Black Rose",
         "uiTheme": "vs-dark",
-        "path": "./themes/Galewind Black Rose-color-theme.json"
+        "path": "./themes/lotus-black-rose-color-theme.json"
       },
       {
-        "label": "Galewind Black Sky",
+        "label": "Lotus Black Sky",
         "uiTheme": "vs-dark",
-        "path": "./themes/Galewind Black Sky-color-theme.json"
+        "path": "./themes/lotus-black-sky-color-theme.json"
       }
     ]
   }

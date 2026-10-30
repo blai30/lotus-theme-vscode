@@ -37,7 +37,7 @@ function Get-AccentColor {
 
 $accent = Get-AccentColor -Name $Variant
 1..$Repeat | ForEach-Object {
-    Write-Output "[$_] Galewind $Variant -> $accent"
+    Write-Output "[$_] Lotus $Variant -> $accent"
 }
 
 $variants = $Accents.Keys |

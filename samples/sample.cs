@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Galewind.Samples;
+namespace Lotus.Samples;
 
 /// <summary>Represents an immutable money value in minor units.</summary>
 public readonly record struct Money(long Cents, string Currency)

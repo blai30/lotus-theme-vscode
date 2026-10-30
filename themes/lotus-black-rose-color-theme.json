@@ -1,68 +1,68 @@
 {
-  "name": "Galewind Dark Rose",
+  "name": "Lotus Black Rose",
   "colors": {
     // Base
     "focusBorder": "#BE123C",
 
     // Editor
-    "editor.background": "#18181B",
+    "editor.background": "#000000",
     "editor.foreground": "#F4F4F5",
-    "editor.lineHighlightBackground": "#27272A",
+    "editor.lineHighlightBackground": "#18181B",
     "editor.selectionBackground": "#FB718550",
     "editor.wordHighlightStrongBackground": "#FB718550",
     "editorCursor.foreground": "#FECDD3",
-    "editorGroupHeader.border": "#18181B",
-    "editorGroupHeader.tabsBackground": "#18181B",
+    "editorGroupHeader.border": "#000000",
+    "editorGroupHeader.tabsBackground": "#000000",
     "editorLineNumber.activeForeground": "#D4D4D8",
     "editorLineNumber.foreground": "#71717A",
     "editorLink.activeForeground": "#FDA4AF",
-    "editorSuggestWidget.background": "#27272A",
-    "editorSuggestWidget.focusHighlightForeground": "#F4F4F5",
-    "editorSuggestWidget.foreground": "#F4F4F5",
+    "editorSuggestWidget.background": "#18181B",
+    "editorSuggestWidget.focusHighlightForeground": "#E4E4E7",
+    "editorSuggestWidget.foreground": "#E4E4E7",
     "editorSuggestWidget.selectedBackground": "#9F1239",
 
     // Activity Bar
-    "activityBar.activeBackground": "#18181B",
-    "activityBar.activeBorder": "#27272A",
-    "activityBar.activeFocusBorder": "#27272A",
-    "activityBar.background": "#27272A",
+    "activityBar.activeBackground": "#000000",
+    "activityBar.activeBorder": "#09090B",
+    "activityBar.activeFocusBorder": "#09090B",
+    "activityBar.background": "#09090B",
     "activityBar.foreground": "#F4F4F5",
     "activityBar.inactiveForeground": "#A1A1AA",
     "activityBarBadge.background": "#BE123C",
 
     // Side Bar
-    "sideBar.background": "#18181B",
-    "sideBar.border": "#27272A",
+    "sideBar.background": "#000000",
+    "sideBar.border": "#09090B",
     "sideBar.dropBackground": "#FB718550",
-    "sideBarSectionHeader.background": "#18181B",
-    "sideBarSectionHeader.border": "#27272A",
+    "sideBarSectionHeader.background": "#000000",
+    "sideBarSectionHeader.border": "#09090B",
 
     // Tabs
     "tab.activeModifiedBorder": "#FB7185",
-    "tab.border": "#18181B",
-    "tab.hoverBackground": "#3F3F46",
-    "tab.inactiveBackground": "#27272A",
+    "tab.border": "#000000",
+    "tab.hoverBackground": "#27272A",
+    "tab.inactiveBackground": "#09090B",
 
     // Title & Status Bar
-    "statusBar.background": "#27272A",
-    "statusBar.noFolderBackground": "#27272A",
-    "titleBar.activeBackground": "#27272A",
-    "titleBar.inactiveBackground": "#27272A",
+    "statusBar.background": "#09090B",
+    "statusBar.noFolderBackground": "#09090B",
+    "titleBar.activeBackground": "#09090B",
+    "titleBar.inactiveBackground": "#09090B",
 
     // Inputs, Lists & Menus
     "button.background": "#BE123C",
-    "dropdown.background": "#27272A",
-    "input.background": "#27272A",
+    "dropdown.background": "#09090B",
+    "input.background": "#09090B",
     "list.activeSelectionBackground": "#BE123C",
-    "list.hoverBackground": "#3F3F46",
-    "menu.background": "#27272A",
+    "list.hoverBackground": "#27272A",
+    "menu.background": "#09090B",
     "menu.foreground": "#D4D4D8",
-    "menu.selectionBackground": "#3F3F46",
+    "menu.selectionBackground": "#27272A",
     "menu.separatorBackground": "#52525B",
-    "quickInput.background": "#27272A",
-    "quickInputList.focusBackground": "#18181B",
+    "quickInput.background": "#09090B",
+    "quickInputList.focusBackground": "#000000",
     "quickInputTitle.background": "#252528",
-    "settings.focusedRowBackground": "#27272A",
+    "settings.focusedRowBackground": "#09090B",
     "settings.modifiedItemIndicator": "#F43F5E",
 
     // Links
@@ -312,10 +312,12 @@
     {
       "name": "Class",
       "scope": [
-        "entity.name.type.class",
+        "entity.name.type",
         "support.type",
         "support.class",
+        "support.other.namespace.use.php",
         "meta.use.php",
+        "support.other.namespace.php",
         "markup.changed.git_gutter",
         "support.type.sys-types"
       ],
@@ -533,16 +535,15 @@
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#67E8F9"
+        "foreground": "#C3E88D"
       }
     },
     {
       "name": "Markup - Italic",
       "scope": ["markup.italic"],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#F07178"
+        "fontStyle": "bold",
+        "foreground": "#67E8F9"
       }
     },
     {

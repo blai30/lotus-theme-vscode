@@ -1,5 +1,5 @@
 // Java sample for syntax highlighting
-package com.galewind.samples;
+package com.lotus.samples;
 
 import java.util.List;
 import java.util.Map;
